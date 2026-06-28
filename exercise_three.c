@@ -3,7 +3,6 @@
 
 /* print Fahrenheight-Celsius table
     for fahr = 0, 20, ..., 300 */
-/*
 int main(void) 
 {
     int fahr, celsius;
@@ -16,37 +15,16 @@ int main(void)
     fahr = lower;
     while (fahr <= upper) {
         celsius = 5 * (fahr-32) / 9; 
-        printf("%d\t%d\n", fahr, celsius);
+        printf("Farenheight | Celsius\n");
+        printf("%d\t        %d\n", fahr, celsius);
         fahr = fahr + step;
     }
 }
-*/
 
 
 // Reason for multiplying by 5 then dividing by 9 instead of just multiplying by 5/9 is that in C, in many other languages, integer division truncates: any fractional part is discarded. 5/9 would be truncated to 0, and so
 // all Celsius temperatures would be reported as 0.
 
-
-
-int main(void) 
-{
-    float fahr, celsius;
-    int lower, upper, step;
-
-
-    lower = 0;
-    upper = 300;
-    step = 20;
-
-    fahr = lower;
-
-    while (fahr <= upper) {
-        celsius = (5.0/9.0) * (fahr-32.0);
-        printf("%3.0f %6.1f\n", fahr, celsius);
-        fahr = fahr + step;
-    }
-
-}
 
 
 // This is the same as before except for fahr and celsius being floats, to make the celcius output accurate, as before 0F would output -17, instead of -17.8C

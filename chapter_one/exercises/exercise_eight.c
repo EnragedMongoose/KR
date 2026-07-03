@@ -12,9 +12,9 @@ int main(void)
 {
     if ( c == ' ')  
         ++blanks;
-else if ( c == '\t')
+    else if ( c == '\t')
         ++tabs;
-else if ( c == '\n')
+    else if ( c == '\n')
         ++ newlines;
 }
 printf("Blanks: %d\nTabs: %d\nNewlines: %d\n", blanks, tabs, newlines);

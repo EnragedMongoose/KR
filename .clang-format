@@ -1,0 +1,22 @@
+# K&R-style C formatting for the K&R exercises.
+Language: Cpp
+BasedOnStyle: LLVM
+
+# Indentation
+IndentWidth: 4
+TabWidth: 4
+UseTab: Never
+ContinuationIndentWidth: 4
+
+# Braces: K&R / Linux-kernel style.
+# Functions get the opening brace on their own line; control
+# statements (if/while/for) keep it on the same line.
+BreakBeforeBraces: Linux
+
+# Keep the book's compact, readable feel.
+ColumnLimit: 80
+AllowShortFunctionsOnASingleLine: None
+AllowShortIfStatementsOnASingleLine: false
+AllowShortLoopsOnASingleLine: false
+SpaceBeforeParens: ControlStatements
+PointerAlignment: Right

@@ -15,3 +15,7 @@ Did Exercise 1-8 successfully. Had some issues with my testing material and prev
 ## 2026-07-08
 
 Did Exercise 1-9 at work. Feels like I was overcomplicating it and got frustrated but between phone calls, emails, and chasing clients down in the lobby I got it done. Basically I needed to declare the variable that held the previous value outside the while loop, and I used vscode for formatting on save. Clean formatting helps me see what's going on clearly and before I got that save on format turned on the code was just a mess.<
+
+## 2026-07-11
+
+Early morning session has completed Exercise 1-10. This session was much faster and cleaner. I had to learn about ascii values and how to input backspace, which is ctrl-H. Good times. 

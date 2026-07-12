@@ -19,3 +19,8 @@ Did Exercise 1-9 at work. Feels like I was overcomplicating it and got frustrate
 ## 2026-07-11
 
 Early morning session has completed Exercise 1-10. This session was much faster and cleaner. I had to learn about ascii values and how to input backspace, which is ctrl-H. Good times. 
+
+
+## 2026-7-11
+
+Evening now and I did exercise 1-12, with 11 being a non coding exercise. This one didn't take much to figure out and was satisfying. 

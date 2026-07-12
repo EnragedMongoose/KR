@@ -32,4 +32,4 @@ EDIT: I'm an idiot, the code doesn't actually work like it's suppose to and only
 
 I worked into the morning and a little bit as I woke up to try to figure out how to not print out the first blank line but I failed. I have an inkling of what I need to do but my code turns into spaghetti. 
 
-EDIT: Sometime later I finally got the program to work properly and tested with different inputs to see if i could break the program; I didn't. However there is still the case of the last line printing alongside my terminal user name; I need a newline printed before EOF, but at this point idc and i'm moving on.
+EDIT: Sometime later I finally got the program to work properly and tested with different inputs to see if i could break the program; it didn't. However there is still the case of the last line printing alongside my terminal user name; I need a newline printed before EOF, but at this point idc and i'm moving on.

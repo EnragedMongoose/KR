@@ -1,4 +1,4 @@
-These are words that I am typing into this text file.
+        These are words that I am typing into this text file.
 These 
 
      are

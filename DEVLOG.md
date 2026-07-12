@@ -24,3 +24,5 @@ Early morning session has completed Exercise 1-10. This session was much faster 
 ## 2026-7-11
 
 Evening now and I did exercise 1-12, with 11 being a non coding exercise. This one didn't take much to figure out and was satisfying. 
+
+EDIT: I'm an idiot, the code doesn't actually work like it's suppose to and only worked with that one specific test file. I am currently trying to make it work. 

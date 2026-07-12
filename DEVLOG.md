@@ -26,3 +26,8 @@ Early morning session has completed Exercise 1-10. This session was much faster 
 Evening now and I did exercise 1-12, with 11 being a non coding exercise. This one didn't take much to figure out and was satisfying. 
 
 EDIT: I'm an idiot, the code doesn't actually work like it's suppose to and only worked with that one specific test file. I am currently trying to make it work. 
+
+
+## 2026-7-12
+
+I worked into the morning and a little bit as I woke up to try to figure out how to not print out the first blank line but I failed. I have an inkling of what I need to do but my code turns into spaghetti. 

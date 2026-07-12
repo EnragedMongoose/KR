@@ -1,21 +1,21 @@
 #include <stdio.h>
 #define IN 1
 #define OUT 0
+
 int main(void)
 {
-    int c, n, state;
-    state = OUT;
+    int c, state, n;
     n = 0;
+    state = OUT;
     while ((c = getchar()) != EOF) {
-        if (n == 0)
-            putchar(c);
-        if (c != ' ' || c != '\n' || c != '\t')
-            n = n - n;
-        if (c == ' ' || c == '\n' || c == '\t')
+        if (c == ' ' || c == '\n' || c == '\t') {
             state = OUT;
-        else if (state == OUT) {
+        } else if (state == OUT) {
+            putchar('\n');
             state = IN;
-            n++;
+            putchar(c);
+        } else {
+            putchar(c);
         }
     }
 }
